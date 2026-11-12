@@ -16,7 +16,7 @@ const sliderContainer = document.querySelector('.hero-slider-container');
 let currentSlide = 0;
 const totalSlides = slides.length;
 let slideInterval = null;
-const AUTO_PLAY_DELAY = 5000; // 5 seconds per slide
+const AUTO_PLAY_DELAY = 3000; // 3 seconds per slide
 
 function showSlide(index) {
     if (totalSlides === 0) return;
